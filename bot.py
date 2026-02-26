@@ -1,7 +1,11 @@
 from telegram.ext import Updater, MessageHandler, Filters
+import os
 
 TOKEN = "8544638957:AAEe5Rb9ctd5tjLyuXJPFTRfwKOTPvGGKbc"
 ADMIN_ID = 6415960307
+
+
+TOKEN = os.environ.get("8544638957:AAEe5Rb9ctd5tjLyuXJPFTRfwKOTPvGGKbc")
 
 # ---------------- ADMIN HANDLER ----------------
 def admin_handler(update, context):
