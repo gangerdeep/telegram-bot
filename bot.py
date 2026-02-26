@@ -16,7 +16,7 @@ def admin_handler(update, context):
 
     # ✅ Admin /start command
     if update.message.text == "/start":
-        update.message.reply_text("✅👾 Bot is running Successfully")
+        update.message.reply_text("⭐ Bot is running Successfully")
         return
 
     # ✅ Admin replying to user
@@ -128,3 +128,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
